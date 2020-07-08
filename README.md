@@ -1,6 +1,9 @@
+###Credits:
 # Spring Boot with Kafka Producer Example
 
 This Project covers how to use Spring Boot with Spring Kafka to Publish JSON/String message to a Kafka topic
+## Run app fom cli 
+mvn org.springframework.boot:spring-boot-maven-plugin:run
 ## Start Zookeeper
 - `bin/zookeeper-server-start.sh config/zookeeper.properties`
 
@@ -14,5 +17,5 @@ This Project covers how to use Spring Boot with Spring Kafka to Publish JSON/Str
 - `bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic Kafka_Example --from-beginning`
 
 ## Publish message via WebService
-- `http://localhost:8081/kafka/publish/Sam`
-- `http://localhost:8081/kafka/publish/Peter`
+- `http://localhost:8081/kafka/publish/Hari`
+### Credits: https://youtu.be/NjHYWEV_E_o 
